@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="my-cli-tool",            # 你的工具名称，发布到PyPI时的名称
+    name="marshal-cli-tool",            # 你的工具名称，发布到PyPI时的名称
     version="0.1.0",               # 版本号
     packages=find_packages(),      # 自动发现并包含所有包
     install_requires=[],           # 项目的依赖，可以填入例如 ['click', 'requests'] 等
